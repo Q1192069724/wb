@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8">
+		<style type="text/css">
+		#top1{position: absolute;top: 0px;left: 0px;right: 0px;
+			height: 28px;background-color: #f4f4f4;}
+		#top2{position: absolute;top:28px;left: 0px;right: 0px;height: 90px;}
+		#top3{padding-left: 180px;
+			position: absolute;top:118px;left: 0px;right: 0px;height: 40px;border-bottom: 2px solid #e00304;}
+			#t1{position: absolute;left: 180px ;line-height:28px;font-size: 0.7em; }
+			#top1>img{position: absolute;left:315px;height: 20px;top:3px;}
+			#t2{position: absolute;left: 330px;top:0;line-height: 28px;font-size: 0.7em;}
+			#t3{float: right;margin-right: 180px;line-height: 28px;font-size:0.7em;}
+	    #top1-2{position: absolute;top:0px;right: 180px;line-height: 28px;font-size: 0.9em;}
+		#bot1{position: absolute;top:158px;left: 0;right: 0;height: 650px;background-color: #fbfbfb;}
+		#bot2{position: absolute;top:808px;left: 0;right: 0;height: 250px;background-color: #2e2e2e;}
+		#bot1-1{position:absolute;top:70px;left: 180px;right: 180px;bottom: 20px;background-color: #ffffff;}
+		#top2>img{position: absolute;left: 180px;}
+		#top2>input{border:1px solid #f83838;width: 410px;height: 35px;
+			position: absolute;left: 560px;top:30px;}
+			#top2-1{background-color: #f83838;color:white;position: absolute;left: 970px;line-height: 39px;top:30px;text-align: center;font-size: 0.8em;width: 90px;}
+			#top2-2{background-color: #f5f5f5;position: absolute;right: 180px;top:30px;line-height: 39px;font-size: 0.9em;padding-left: 20px;width: 145px;}
+            #top2-2>div{position: absolute;line-height: 39px;
+            	left: 39px;
+            	display: inline;}
+            #top3>ul>li{text-align: center;font-size: 0.8em;
+            	display: inline-block;width: 100px;float: left;line-height: 38px;     
+                }
+            #top3>ul{padding:0;margin:0;height: 38px;}
+            #top3>ul>li:hover{background-color: #fd0304;color: white;border-radius: 16px;}
+            #bot1-1>img{position:absolute;left: 50px;top: 10px; }
+            #bot1-1>h1{position: absolute;left:100px;top:0;font-size: 0.95em;width: 90px;line-height: 40px;padding:0;margin:0;}
+            #bot1-1>h2{position: absolute;left: 100px;top:60px;line-height: 40px;width: 90px;font-size: 0.9em;padding:0;margin:0;}
+            #bot1-1>h3{position: absolute;left: 100px;top:100px;line-height: 40px;width: 90px;font-size: 0.9em;padding:0;margin:0;}
+            #bot1-1>h2:hover{color: #ff2c18;}#bot1-1>h3:hover{color: #ff2c18;}
+            #con1{position: absolute;right: 15px;top:10px;width:170px;height: 250px;border:1px dotted;}
+            #con1>img{position: absolute;top:10px;left: 15px;width:140px;}
+            #con2{position: absolute;right: 200px;top:10px;width:170px;height: 250px;border:1px dotted;}
+            #con2>img{position: absolute;top:5px;left: 15px;width:140px;}
+            #con3{position: absolute;right: 385px;top:10px;width:170px;height: 250px;border:1px dotted;}
+           #con3>img{position: absolute;top:5px;left: 15px;width:140px;}
+            #con4{position: absolute;right: 570px;top:10px;width:170px;height: 250px;border:1px dotted;}
+            #con4>img{position: absolute;top:15px;left: 15px;width:140px;height: 120px}
+            #con5{position: absolute;right: 15px;top:270px;width:170px;height: 250px;border:1px dotted;}
+            #con5>img{position: absolute;top:10px;left: 15px;width:140px;}
+            #con6{position: absolute;right: 200px;top:270px;width:170px;height: 250px;border:1px dotted;}
+            #con6>img{position: absolute;top:5px;left: 15px;width:140px;}
+            #con7{position: absolute;right: 385px;top:270px;width:170px;height: 250px;border:1px dotted;}
+            #con7>img{position: absolute;top:5px;left: 15px;width:140px;}
+            #con8{position: absolute;right: 570px;top:270px;width:170px;height: 250px;border:1px dotted;}
+            #con8>img{position: absolute;top:15px;left: 15px;width:140px;height: 120px;}
+            #con1-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            #con1-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	 #con2-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	  #con3-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	   #con4-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	    #con5-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	     #con6-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	      #con7-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            	       #con8-1{position: absolute;bottom: 40px;line-height: 40px;text-align: center;color: #e0e0e0;margin:0;width: 170px;font-size: 0.95em;}
+            #con2-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con3-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con4-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con5-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con6-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con7-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#con8-2{position: absolute;bottom: 0;line-height: 40px;text-align: center;margin:0;
+            	width: 170px;font-size: 0.9em;}
+            	#bo1{position: absolute;left: 180px;top:0;width: 270px;height: 150px;border-bottom: 1px dotted;}
+
+            	#bo2{position: absolute;left: 450px;top:0;width: 270px;height: 150px;border-bottom: 1px dotted;}
+            	#bo3{position: absolute;left: 720px;top:0;width: 270px;height: 150px;border-bottom: 1px dotted;}
+            	#bo4{position: absolute;left: 990px;top:0;width: 270px;height: 150px;border-bottom: 1px dotted;}
+            	#bo5{position: absolute;left: 1260px;top:0;width: 270px;height: 150px;border-bottom: 1px dotted;}
+            	#bo6{position: absolute;bottom: 0px;line-height: 80px;text-align: center;left: 0;right: 0;}
+            	#p1{line-height: 50px;}
+            	#p2{line-height: 30px;font-size: 0.8em;}
+		</style>
+	</head>
+	<body><form>
+		<div id="top1"> 
+			<span id="t1">我的收藏 E族之家手机版</span>
+			<img src="img.3/images/作业设计图_02.gif">
+			<span id="t2">32109148</span>
+			<span id="t3">扫描加入 欢迎来到E族之家 请<a>登录</a>|<a>注册</a></span>
+		<div id="top2"><img src="img.3/images/作业设计图_06.gif"/>
+			<input type="text" value="请输入关键字！" name="select"/>
+			<a href="smile.png"><div id="top2-1">搜索</div></a>
+			<div id="top2-2">
+				<img src="img.3/images/作业设计图_09.gif">
+				<div>购物车(<a style="color: red;">0</a>)件</div>
+			</div>
+		</div>
+		<div id="top3"><ul>
+			<li>首页</li>
+			<li>E族生活</li>
+			<li>E族服务</li>
+			<li>E族爱心</li>
+		</ul></div>
+		<div id="bot1">
+			<div id="bot1-1">				
+			<img src="img.3/images/作业设计图_18.gif"/>
+			<h1>全部分类</h1>
+				<h2>>食品</h2>
+				<h3>>生活用品</h3>
+				<div id="con1"><img src="img.3/images/作业设计图_23.gif">
+                <p id="con1-1">万威啤酒500ml</p><p id="con1-2">￥90.00</p>
+				</div>
+			     <div id="con2"><img src="img.3/images/作业设计图_21.gif">
+			     	<p id="con2-1">万威啤酒500ml</p><p id="con2-2">￥90.00</p>
+			     </div>
+			     <div id="con3"><img src="img.3/images/作业设计图_29.gif">
+			     	<p id="con3-1">特级百香果300斤</p><p id="con3-2">￥90.00</p>
+			     </div>
+			     <div id="con4"><img src="img.3/images/作业设计图_27.gif">
+			     	<p id="con4-1">精品辣椒100g</p><p id="con4-2">￥90.00</p>
+			     </div>
+			     <div id="con5"><img src="img.3/images/作业设计图_23.gif">
+			     	<p id="con5-1">万威啤酒500ml</p><p id="con5-2">￥90.00</p>
+			     </div>
+			     <div id="con6"><img src="img.3/images/作业设计图_21.gif">
+			     	<p id="con6-1">万威啤酒500ml</p><p id="con6-2">￥90.00</p>
+			     </div>
+			     <div id="con7"><img src="img.3/images/作业设计图_29.gif">
+			     	<p id="con7-1">特级百香果300斤</p><p id="con7-2">￥90.00</p>
+			     </div>
+			     <div id="con8"><img src="img.3/images/作业设计图_27.gif">
+			     	<p id="con8-1">精品辣椒100g</p><p id="con8-2">￥90.00</p>
+			     </div>
+		</div>
+		<div id="bot2">
+			<div id="bo1">
+				<h3 style="color: white;font-size: 1.0em;">新手上路</h3><h4 style="color: white;font-size: 0.7em;">售后流程</h4><h4 style="color: white;font-size: 0.7em;">购物流程</h4><h4 style="color: white;font-size: 0.7em;">订购方式</h4>
+			</div>
+			<div id="bo2">
+				<h3 style="color: white;font-size: 1.0em;">配送方式</h3><h4 style="color: white;font-size: 0.7em;">货到付款区域</h4><h4 style="color: white;font-size: 0.7em;">配送支付查询</h4><h4 style="color: white;font-size: 0.7em;">支付方式说明</h4>
+			</div>
+			<div id="bo3">
+				<h3 style="color: white;font-size: 1.0em;">购物指南</h3><h4 style="color: white;font-size: 0.7em;">常见问题</h4><h4 style="color: white;font-size: 0.7em;">订购流程</h4><h4 style="color: white;font-size: 0.7em;">注册新会员</h4>
+			</div>
+			<div id="bo4">
+				<h3 style="color: white;font-size: 1.0em;">售后服务</h3><h4 style="color: white;font-size: 0.7em;">退换货原则</h4><h4 style="color: white;font-size: 0.7em;">售后服务保证</h4><h4 style="color: white;font-size: 0.7em;">换货原则</h4>
+			</div>
+			<div id="bo5">
+				<h3 style="color: white;font-size: 1.0em;">关于我们</h3><h4 style="color: white;font-size: 0.7em;">网络故障报告</h4><h4 style="color: white;font-size: 0.7em;">联系我们</h4><h4 style="color: white;font-size: 0.7em;">投诉我们式</h4>
+			</div>
+			<div id="bo6">
+			<p id="p1">E族生活 | 居家维修保养 | 住宿优惠信息 | 出行接送 | E族活动 | E族爱心 | 积分商城</p>
+			<p id="p2"<img src="img.3/images/作业设计图_03.gif"> 2017-2018 E族之家版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号。</p>
+		</div>
+		</div>
+	</form>
+	</body>
+	</html>
